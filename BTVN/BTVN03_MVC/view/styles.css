@@ -1,4 +1,4 @@
-/* Reset mặc định */
+
 body, h1, h2, h3, p, ul, li, a, button {
     margin: 0;
     padding: 0;
@@ -7,76 +7,80 @@ body, h1, h2, h3, p, ul, li, a, button {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f5f7f9;
+    color: #444;
     line-height: 1.6;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
 /* Header */
 header {
-    background: #007bff;
+    background: #4caf50;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #3e8e41;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 header nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s ease;
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+    background: #3e8e41;
+    border-radius: 5px;
 }
 
-/* Nút thêm mới */
+
 .add-button {
     display: inline-block;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
+    background-color: #34a853;
+    color: #fff;
+    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
     transition: 0.3s;
 }
 
 .add-button:hover {
-    background-color: #218838;
+    background-color: #2a8a43;
 }
 
-/* Bảng */
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: white;
-    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
     overflow: hidden;
 }
 
 table thead {
-    background-color: #007bff;
-    color: white;
+    background-color: #34a853;
+    color: #fff;
+    font-size: 16px;
 }
 
 table thead th {
@@ -90,11 +94,11 @@ table tbody tr {
 }
 
 table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f8f9fa;
 }
 
 table tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #e7f4e4;
 }
 
 table tbody td {
@@ -102,43 +106,44 @@ table tbody td {
     text-align: left;
 }
 
-/* Icon sửa và xóa */
+
 .edit-icon, .delete-icon {
     text-decoration: none;
     font-size: 18px;
-    margin: 0 10px;
+    margin: 0 8px;
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .edit-icon {
-    color: #007bff;
+    color: #2196f3;
 }
 
 .edit-icon:hover {
-    color: #0056b3;
+    color: #1976d2;
 }
 
 .delete-icon {
-    color: #dc3545;
+    color: #f44336;
 }
 
 .delete-icon:hover {
-    color: #c82333;
+    color: #d32f2f;
 }
 
 /* Form */
 form {
-    background: white;
+    background: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 form label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    color: #333;
 }
 
 form input[type="text"],
@@ -146,33 +151,34 @@ form input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #4caf50;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #3e8e41;
 }
 
 /* Footer */
 footer {
     text-align: center;
     margin-top: 30px;
-    padding: 10px;
-    background: #007bff;
-    color: white;
+    padding: 12px;
+    background: #4caf50;
+    color: #fff;
     font-size: 14px;
     border-radius: 5px 5px 0 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
