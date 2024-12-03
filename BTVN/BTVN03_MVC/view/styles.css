@@ -20,11 +20,11 @@ body {
 
 /* Header */
 header {
-    background: #4caf50;
+    background: #d6c14a;
     color: #fff;
     padding: 15px 20px;
     text-align: center;
-    border-bottom: 3px solid #3e8e41;
+    border-bottom: 3px solid #6ad3e8;
 }
 
 header nav ul {
@@ -50,7 +50,7 @@ header nav ul li a:hover {
 
 .add-button {
     display: inline-block;
-    background-color: #34a853;
+    background-color: #01ba54;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -124,7 +124,7 @@ table tbody td {
 }
 
 .delete-icon {
-    color: #f44336;
+    color: #e7f830;
 }
 
 .delete-icon:hover {
